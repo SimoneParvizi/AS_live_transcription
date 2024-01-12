@@ -32,4 +32,4 @@ To transcribe the recorded audio, run the transcriber.py script. This script che
 
 ### NOTES
 
-The original idea was to use Faster Whisper, since it's as fast but more precise, and performs better ad Diarization. However, as I have already told Daniel earlier on, Colab kept on crushing when uploading (and sometimes when reading) the .wav files. That's why I chose to use as a solution Whisper since it's usable on CPU without the need of quantization.
+The original idea was to use Faster Whisper, since it's as fast but more precise, and performs better ad Diarization. However, Colab kept on crushing when uploading (and sometimes when reading) the .wav files. That's why I chose to use as a solution Whisper since it's usable on CPU without the need of quantization.
